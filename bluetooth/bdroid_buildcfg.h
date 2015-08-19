@@ -21,6 +21,8 @@
 
 #define BTM_DEF_LOCAL_NAME   "bq Aquaris M5"
 
+#define PROC_BTWRITE_TIMER_TIMEOUT_MS = 0
+
 // Disables read remote device feature
 #define BTA_SKIP_BLE_READ_REMOTE_FEAT FALSE
 #define MAX_ACL_CONNECTIONS    7
