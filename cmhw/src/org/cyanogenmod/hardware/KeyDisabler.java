@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2016 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,11 +38,13 @@ public class KeyDisabler {
     }
 
     public static boolean isActive() {
-        return Integer.parseInt(FileUtils.readOneLine(KEY_CONTROL_PATH)) == 1;
+        if (isSupported()) return Integer.parseInt(FileUtils.readOneLine(KEY_CONTROL_PATH)) == 1;
+        return false;
     }
 
     public static boolean setActive(boolean state) {
-        return FileUtils.writeLine(KEY_CONTROL_PATH, state ? "1" : "0");
+        if (isSupported()) return FileUtils.writeLine(KEY_CONTROL_PATH, state ? "1" : "0");
+        return false;
     }
 
 }
