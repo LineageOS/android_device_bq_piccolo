@@ -51,6 +51,11 @@
     <ctl name="TTY Mode" value="Off" />
     <ctl name="HPHL Volume" value="9" />
     <ctl name="HPHR Volume" value="9" />
+    <ctl name="Speaker Digital Switch" value="0" />
+    <ctl name="EPOUT Digital Switch" value="0" />
+    <ctl name="HPOUT Digital Switch" value="0" />
+
+    <!--ctl name="HPOUT Digital Volume" value="126" /-->
     <ctl name="HPOUT1L Digital Volume" value="126" />
     <ctl name="HPOUT1R Digital Volume" value="126" />
     <ctl name="RX1 Digital Volume" value="84" />
@@ -707,6 +712,7 @@
     <path name="headphones">
         <ctl name="HPOUTL Input 1" value="AIF1RX1" />
         <ctl name="HPOUTR Input 1" value="AIF1RX2" />
+        <!--ctl name="HPOUT Digital Volume" value="128" /-->
         <ctl name="HPOUT1L Digital Volume" value="128" />
         <ctl name="HPOUT1R Digital Volume" value="128" />
         <ctl name="HPOUT Digital Switch" value="1" />
@@ -733,7 +739,6 @@
 	-->
         <!--<ctl name="AIF1TX1 Input 1" value="IN2R" />	-->
 	<ctl name="AIF1TX1 Input 1" value="IN2L" />
-	<ctl name="AIF1TX2 Input 1" value="IN2L" />
 	<ctl name="IN2L Digital Volume" value="168" />
         <!--<ctl name="AIF1TX2 Input 1" value="IN2R" />	-->
 	

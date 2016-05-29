@@ -1,3 +1,0 @@
-allow toolbox sysfs:dir setattr;
-allow toolbox sysfs:file setattr;
-allow toolbox touchpanel_sysfs:file { getattr setattr };

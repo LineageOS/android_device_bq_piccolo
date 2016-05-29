@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,110 +17,5 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),piccolo)
-
 include $(call all-makefiles-under,$(LOCAL_PATH))
-
-include $(CLEAR_VARS)
-
-# CMN
-CMN_IMAGES := \
-    cmnlib.b00 cmnlib.b01 cmnlib.b02 cmnlib.b03 cmnlib.mdt
-
-CMN_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(CMN_IMAGES)))
-$(CMN_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "CMN firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/image/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(CMN_SYMLINKS)
-
-# ISDB
-ISDB_IMAGES := \
-    isdbtmm.b00 isdbtmm.b01 isdbtmm.b02 isdbtmm.b03 isdbtmm.mdt
-
-ISDB_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(ISDB_IMAGES)))
-$(ISDB_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "ISDB firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/image/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(ISDB_SYMLINKS)
-
-# KEYMASTER
-KM_IMAGES := \
-    keymaster.b00 keymaster.b01 keymaster.b02 keymaster.b03 keymaster.mdt
-
-KM_SYMLINKS := $(addprefix $(TARGET_OUT_VENDOR)/firmware/keymaster/,$(notdir $(KM_IMAGES)))
-$(KM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "Keymaster Firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/image/$(subst r,,$(notdir $@)) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(KM_SYMLINKS)
-
-# MBA
-MBA_IMAGE := \
-    mba.mbn
-
-MBA_SYMLINK := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(MBA_IMAGE)))
-$(MBA_SYMLINK): $(LOCAL_INSTALLED_MODULE)
-	@echo "MBA firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(MBA_SYMLINK)
-
-# MODEM
-MODEM_IMAGES := \
-    modem.b00 modem.b01 modem.b02 modem.b03 modem.b04 modem.b05 \
-    modem.b06 modem.b07 modem.b08 modem.b10 modem.b11 modem.b14 \
-    modem.b15 modem.b16 modem.b17 modem.b18 modem.b19 modem.b20 \
-    modem.b23 modem.b24 modem.b25 modem.b27 modem.b28 modem.mdt
-
-MODEM_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(MODEM_IMAGES)))
-$(MODEM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "Modem firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(MODEM_SYMLINKS)
-
-# PLAYREADY
-PLAYREADY_IMAGES := \
-    playread.b00 playread.b01 playread.b02 playread.b03 playread.mdt
-
-PLAYREADY_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(PLAYREADY_IMAGES)))
-$(PLAYREADY_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "Playready Firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/image/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(PLAYREADY_SYMLINKS)
-
-# WCNSS
-WCNSS_IMAGES := \
-    wcnss.b00 wcnss.b01 wcnss.b02 wcnss.b04 wcnss.b06 wcnss.b09 \
-    wcnss.b10 wcnss.b11 wcnss.mdt
-
-WCNSS_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(WCNSS_IMAGES)))
-$(WCNSS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "WCNSS Firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/image/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(WCNSS_SYMLINKS)
-
-# Create a link for the WCNSS config file, which ends up as a writable
-# version in /system/etc/wifi/
-$(shell mkdir -p $(TARGET_OUT)/etc/firmware/wlan/prima; \
-    ln -sf /system/etc/wifi/WCNSS_qcom_cfg.ini \
-	    $(TARGET_OUT)/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini)
-
 endif

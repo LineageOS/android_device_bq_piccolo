@@ -10,5 +10,6 @@
         <package android:name="com.broadcom.aidfiltertester"/>
         <package android:name="com.brcm.nfcutil"/>
         <package android:name="com.broadcom.apps.testframework"/>
+        <package android:name="org.simalliance.openmobileapi.service"/>
     </signer>
 </resources>
