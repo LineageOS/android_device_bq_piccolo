@@ -39,5 +39,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13013734522 # (BOARD_USERDATAIMAGE_PARTITI
 # Properties
 TARGET_SYSTEM_PROP += device/bq/piccolo/system.prop
 
+# SELinux
+BOARD_SEPOLICY_DIRS += device/bq/piccolo/sepolicy
+
 # Inherit from the proprietary version
 -include vendor/bq/piccolo/BoardConfigVendor.mk
