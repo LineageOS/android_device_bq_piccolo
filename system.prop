@@ -5,7 +5,7 @@ voice.voip.conc.disabled=true
 
 # Display
 ro.sf.lcd_density=480
-ro.opengles.version 196609
+ro.opengles.version=196609
 
 # Perfd
 ro.min_freq_0=960000
