@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/atmel_mxt_ts_T100_touchscreen.kl:system/usr/keylayout/atmel_mxt_ts_T100_touchscreen.kl \
-    $(LOCAL_PATH)/keylayout/msm8939-snd-card-skuk_Button_Jack.kl:system/usr/keylayout/msm8939-snd-card-skuk_Button_Jack.kl
+    $(LOCAL_PATH)/keylayout/Headset.kl:system/usr/keylayout/Headset.kl
 
 # Media
 PRODUCT_COPY_FILES += \
