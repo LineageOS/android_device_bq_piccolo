@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
--include device/bq/common/BoardConfigCommon.mk
+-include device/bq/msm8916-common/BoardConfigCommon.mk
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/bq/common
+TARGET_KERNEL_SOURCE := kernel/bq/msm8939
 TARGET_KERNEL_CONFIG := cyanogenmod_piccolo_defconfig
 
 # Assert
