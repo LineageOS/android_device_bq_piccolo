@@ -16,7 +16,7 @@
 
 package org.cyanogenmod.hardware;
 
-import org.cyanogenmod.hardware.util.FileUtils;
+import org.cyanogenmod.internal.util.FileUtils;
 
 import java.io.File;
 
@@ -34,7 +34,7 @@ public class KeyDisabler {
     private static String KEY_CONTROL_PATH = "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/disable_keys";
 
     public static boolean isSupported() {
-        return new File(KEY_CONTROL_PATH).exists();
+        return FileUtils.isFileWritable(KEY_CONTROL_PATH);
     }
 
     public static boolean isActive() {
