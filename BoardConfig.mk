@@ -30,7 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := aquarism5,piccolo,Aquaris_M5
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bq/piccolo/bluetooth
 
 # CMHW
-BOARD_HARDWARE_CLASS := device/bq/piccolo/cmhw/src
+BOARD_HARDWARE_CLASS += device/bq/piccolo/cmhw/src
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/en_gesture"
 
 # Filesystem
