@@ -24,7 +24,6 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     $(LOCAL_PATH)/configs/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml
 
 # Display
