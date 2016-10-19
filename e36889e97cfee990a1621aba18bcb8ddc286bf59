@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ff2e2bb8_748e0979",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 7901
+      },
+      "writtenOn": "2016-10-19T19:30:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff2e2bb8_14221da5",
+      "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff2e2bb8_1457bd04",
         "filename": "rootdir/etc/init.qcom.power.rc",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2016-10-19T19:08:49Z",
       "side": 1,
       "message": "How did you find these values? Does stock use the same values?",
+      "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_d4e8b517",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 7901
+      },
+      "writtenOn": "2016-10-19T19:30:31Z",
+      "side": 1,
+      "message": "All devices with opensource core_ctl use this ones.",
+      "parentUuid": "ff2e2bb8_1457bd04",
       "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -64,6 +100,24 @@
       "writtenOn": "2016-10-19T19:08:49Z",
       "side": 1,
       "message": "Someone on http://forum.xda-developers.com/xperia-z5/general/root-required-performance-battery-t3376233 mentions that this should not be turned on. He mentions that FCs showed up when this was on. Why do you think it\u0027s needed?",
+      "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_b4ed3127",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 7901
+      },
+      "writtenOn": "2016-10-19T19:30:31Z",
+      "side": 1,
+      "message": "They refer to little cores. I set it to big ones.",
+      "parentUuid": "ff2e2bb8_f42699b7",
       "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
