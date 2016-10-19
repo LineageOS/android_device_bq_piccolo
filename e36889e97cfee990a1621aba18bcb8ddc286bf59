@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_14221da5",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 10846
+      },
+      "writtenOn": "2016-10-19T19:08:49Z",
+      "side": 1,
+      "message": "Remove these spaces",
+      "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_1457bd04",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 10846
+      },
+      "writtenOn": "2016-10-19T19:08:49Z",
+      "side": 1,
+      "message": "How did you find these values? Does stock use the same values?",
+      "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_7447294d",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 10846
+      },
+      "writtenOn": "2016-10-19T19:08:49Z",
+      "side": 1,
+      "message": "Why are min_cpus and max_cpus set for the small cores but not for the big ones?",
+      "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_f42699b7",
+        "filename": "rootdir/etc/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 10846
+      },
+      "writtenOn": "2016-10-19T19:08:49Z",
+      "side": 1,
+      "message": "Someone on http://forum.xda-developers.com/xperia-z5/general/root-required-performance-battery-t3376233 mentions that this should not be turned on. He mentions that FCs showed up when this was on. Why do you think it\u0027s needed?",
+      "revId": "e36889e97cfee990a1621aba18bcb8ddc286bf59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
