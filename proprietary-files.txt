@@ -1,0 +1,272 @@
+# ADSP
+bin/adsprpcd
+vendor/lib/libadsprpc.so
+vendor/lib/libfastcvopt.so
+
+# Audio ACBD
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+etc/acdbdata/QRD/QRD_General_cal.acdb
+etc/acdbdata/QRD/QRD_Global_cal.acdb
+etc/acdbdata/QRD/QRD_Handset_cal.acdb
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+etc/acdbdata/QRD/QRD_Headset_cal.acdb
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+
+# Audio libraries
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+vendor/lib/libFlacSwDec.so
+
+# Bluetooth
+bin/btnvtool
+bin/hci_qcomm_init
+vendor/lib/libbtnv.so
+
+# Camera
+bin/mm-qcamera-daemon
+lib/hw/camera.msm8916.so
+lib/libarcsoft_beautyshot.so
+lib/libarcsoft_panorama_burstcapture.so
+lib/libcam.beautyshot.so
+lib/libmmcamera_interface.so
+lib/libmmjpeg_interface.so
+lib/libmm-qcamera.so
+lib/libmpbase.so
+lib/libqomx_core.so
+vendor/lib/libjpegdhw.so
+vendor/lib/libjpegehw.so
+vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_frame_algorithm.so
+vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_is.so
+vendor/lib/libmmcamera2_isp_modules.so
+vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_q3a_core.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_vpe_module.so
+vendor/lib/libmmcamera2_wnr_module.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_hdr_lib.so
+vendor/lib/libmmcamera_imx214_f13n05e_eeprom.so
+vendor/lib/libmmcamera_imx214_f13n05e.so
+vendor/lib/libmmcamera_imx214_olqba15_eeprom.so
+vendor/lib/libmmcamera_imx214_olqba15.so
+vendor/lib/libmmcamera_s5k5e2_olq5f24_eeprom.so
+vendor/lib/libmmcamera_s5k5e2_olq5f24.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_tintless_algo.so
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_wavelet_lib.so
+vendor/lib/libmmipl.so
+vendor/lib/libmmjpeg.so
+vendor/lib/libmmqjpeg_codec.so
+vendor/lib/liboemcamera.so
+vendor/lib/libqomx_jpegenc.so
+vendor/lib/libts_detected_face_hal.so
+vendor/lib/libts_face_beautify_hal.so
+
+# Camera actuator
+vendor/lib/libactuator_dw9761b_f13n05e_camcorder.so
+vendor/lib/libactuator_dw9761b_f13n05e_camera.so
+vendor/lib/libactuator_dw9761b_f13n05e.so
+vendor/lib/libactuator_dw9761_ofilm_camcorder.so
+vendor/lib/libactuator_dw9761_ofilm_camera.so
+vendor/lib/libactuator_dw9761_ofilm.so
+
+# Camera chromatix
+vendor/lib/libchromatix_imx214_f13n05e_common.so
+vendor/lib/libchromatix_imx214_f13n05e_hfr_120fps.so
+vendor/lib/libchromatix_imx214_f13n05e_hfr_60fps.so
+vendor/lib/libchromatix_imx214_f13n05e_hfr_90fps.so
+vendor/lib/libchromatix_imx214_f13n05e_liveshot.so
+vendor/lib/libchromatix_imx214_f13n05e_preview.so
+vendor/lib/libchromatix_imx214_f13n05e_snapshot_hdr.so
+vendor/lib/libchromatix_imx214_f13n05e_snapshot.so
+vendor/lib/libchromatix_imx214_f13n05e_video_hdr.so
+vendor/lib/libchromatix_imx214_f13n05e_video_hd.so
+vendor/lib/libchromatix_imx214_f13n05e_video.so
+vendor/lib/libchromatix_imx214_olqba15_common.so
+vendor/lib/libchromatix_imx214_olqba15_hfr_120fps.so
+vendor/lib/libchromatix_imx214_olqba15_hfr_60fps.so
+vendor/lib/libchromatix_imx214_olqba15_hfr_90fps.so
+vendor/lib/libchromatix_imx214_olqba15_liveshot.so
+vendor/lib/libchromatix_imx214_olqba15_preview.so
+vendor/lib/libchromatix_imx214_olqba15_snapshot_hdr.so
+vendor/lib/libchromatix_imx214_olqba15_snapshot.so
+vendor/lib/libchromatix_imx214_olqba15_video_hdr.so
+vendor/lib/libchromatix_imx214_olqba15_video_hd.so
+vendor/lib/libchromatix_imx214_olqba15_video.so
+vendor/lib/libchromatix_s5k5e2_olq5f24_common.so
+vendor/lib/libchromatix_s5k5e2_olq5f24_liveshot.so
+vendor/lib/libchromatix_s5k5e2_olq5f24_preview.so
+vendor/lib/libchromatix_s5k5e2_olq5f24_snapshot.so
+vendor/lib/libchromatix_s5k5e2_olq5f24_video_hd.so
+vendor/lib/libchromatix_s5k5e2_olq5f24_video.so
+
+# Camera firmware
+etc/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_4_0.fw
+
+# Color convertor
+vendor/lib/libI420colorconvert.so
+vendor/lib/libmm-color-convertor.so
+
+# DRM
+bin/qseecomd
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/libdrmdecrypt.so
+vendor/lib/libdrmfs.so
+vendor/lib/libdrmtime.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/librpmb.so
+vendor/lib/libssd.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/libwvm.so
+vendor/lib/libWVStreamControlAPI_L3.so
+
+# GPS
+-lib/libloc_api_v02.so
+vendor/lib/hw/flp.default.so
+vendor/lib/libflp.so
+vendor/lib/libgeofence.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+
+# Graphics
+vendor/lib/egl/eglsubAndroid.so
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libESXEGL_adreno.so
+vendor/lib/egl/libESXGLESv1_CM_adreno.so
+vendor/lib/egl/libESXGLESv2_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libQTapGLES.so
+vendor/lib/egl/libRBEGL_adreno.so
+vendor/lib/egl/libRBGLESv1_CM_adreno.so
+vendor/lib/egl/libRBGLESv2_adreno.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libC2D2.so
+vendor/lib/libc2d30-a4xx.so
+vendor/lib/libCB.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib/libOpenCL.so
+vendor/lib/librs_adreno.so
+vendor/lib/librs_adreno_sha1.so
+vendor/lib/libRSDriver_adreno.so
+vendor/lib/libsc-a3xx.so
+vendor/lib/libscale.so
+
+# Graphics firmware
+etc/firmware/a420_pfp.fw
+etc/firmware/a420_pm4.fw
+
+# Media
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+
+# Media firmware
+etc/firmware/venus.b00
+etc/firmware/venus.b01
+etc/firmware/venus.b02
+etc/firmware/venus.b03
+etc/firmware/venus.b04
+etc/firmware/venus.mbn
+etc/firmware/venus.mdt
+
+# Misc
+bin/adjust_serialno
+bin/adjust_settings
+
+# NFC
+vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd
+
+# Perf
+bin/msm_irqbalance
+vendor/bin/perfd
+vendor/lib/libqti-perfd-client.so
+
+# Postprocessing
+bin/mm-pp-daemon
+vendor/lib/libdisp-aba.so
+vendor/lib/libmm-abl.so
+vendor/lib/libmm-abl-oem.so
+vendor/lib/libmm-als.so
+vendor/lib/libmm-disp-apis.so
+vendor/lib/libmm-qdcm.so
+
+# QMI
+bin/irsc_util
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libperipheral_client.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqdi.so
+vendor/lib/libqdp.so
+vendor/lib/libqmi.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_helper.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+
+# Radio
+bin/netmgrd
+bin/qmuxd
+bin/radish
+bin/rfs_access
+bin/rmt_storage
+vendor/lib/libcneapiclient.so
+vendor/lib/libconfigdb.so
+vendor/lib/libdsi_netctrl.so
+vendor/lib/liblqe.so
+vendor/lib/libmdmdetect.so
+vendor/lib/libnetmgr.so
+vendor/lib/libril-qc-qmi-1.so
+vendor/lib/libril-qc-radioconfig.so
+vendor/lib/libril-qcril-hook-oem.so
+vendor/lib/libsmemlog.so
+vendor/lib/libsystem_health_mon.so
+vendor/lib/libxml.so
+
+# Sensors
+bin/sensord
+lib/hw/sensors.msm8916.so
+
+# Thermal
+vendor/bin/thermal-engine
+vendor/lib/libthermalclient.so
+vendor/lib/libthermalioctl.so
+
+# Time services
+-app/TimeService/TimeService.apk
+bin/time_daemon
+-vendor/lib/libtime_genoff.so
+vendor/lib/libTimeService.so
+
+# Touchscreen
+etc/firmware/A4_15_2.2_AA.raw
+
+# WLAN
+bin/wcnss_service
