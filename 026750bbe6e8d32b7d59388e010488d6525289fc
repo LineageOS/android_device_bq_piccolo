@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_98a1edfb",
+        "filename": "extract-files.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7901
+      },
+      "writtenOn": "2016-11-16T09:27:10Z",
+      "side": 1,
+      "message": "Should be piccolo here ;)",
+      "range": {
+        "startLine": 20,
+        "startChar": 1,
+        "endLine": 21,
+        "endChar": 9
+      },
+      "revId": "026750bbe6e8d32b7d59388e010488d6525289fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
