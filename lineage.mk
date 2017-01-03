@@ -2,14 +2,14 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common CM stuff
+# Inherit some common Lineage stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/bq/piccolo/full_piccolo.mk)
 
 PRODUCT_RELEASE_NAME := Aquaris M5
-PRODUCT_NAME := cm_piccolo
+PRODUCT_NAME := lineage_piccolo
 
 # Set product device & name
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -20,4 +20,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="piccolo-user 6.0.1 MMB29M 4.0.0.11_20161117-0935 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-bq
-

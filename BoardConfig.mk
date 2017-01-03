@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +22,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/bq/msm8939
-TARGET_KERNEL_CONFIG := cyanogenmod_piccolo_defconfig
+TARGET_KERNEL_CONFIG := piccolo_defconfig
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := aquarism5,piccolo,Aquaris_M5
