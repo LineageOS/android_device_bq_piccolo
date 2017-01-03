@@ -21,7 +21,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/bq/msm8939
-TARGET_KERNEL_CONFIG := cyanogenmod_piccolo_defconfig
+TARGET_KERNEL_CONFIG := piccolo_defconfig
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := aquarism5,piccolo,Aquaris_M5
