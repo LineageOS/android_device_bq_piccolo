@@ -235,7 +235,6 @@ vendor/lib/libqmiservices.so
 bin/netmgrd
 bin/qmuxd
 bin/radish
-bin/rfs_access
 bin/rmt_storage
 vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
