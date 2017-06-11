@@ -4,10 +4,6 @@ on enable-low-power
 
     write /sys/class/net/rmnet0/queues/rx-0/rps_cpus 10
 
-    # Enable adaptive LMK and set vmpressure_file_min
-    write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
-    write /sys/module/lowmemorykiller/parameters/vmpressure_file_min 53059
-
     # HMP scheduler settings
     write /proc/sys/kernel/sched_window_stats_policy 3
     write /proc/sys/kernel/sched_ravg_hist_size 5
