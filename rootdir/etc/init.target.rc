@@ -59,7 +59,7 @@ service atmel_ts /system/bin/sh /system/etc/init.atmel_ts.sh
     user root
     oneshot
 
-service msm_irqbalance /system/bin/msm_irqbalance -f /system/etc/msm_irqbalance.conf
+service msm_irqbalance /system/bin/msm_irqbalance -f /vendor/etc/msm_irqbalance.conf
     class core
     user root
     group root
