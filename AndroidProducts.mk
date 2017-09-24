@@ -16,5 +16,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pa.mk
+    $(LOCAL_DIR)/pa_piccolo.mk
     $(LOCAL_DIR)/full_piccolo.mk
