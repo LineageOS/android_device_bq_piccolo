@@ -1,4 +1,4 @@
-# CMHW
+# Lineagehw
 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/en_gesture  u:object_r:touchpanel_sysfs:s0
 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/disable_keys  u:object_r:touchpanel_sysfs:s0
 
