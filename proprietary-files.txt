@@ -190,10 +190,6 @@ etc/firmware/venus.b04
 etc/firmware/venus.mbn
 etc/firmware/venus.mdt
 
-# Misc
-bin/adjust_serialno
-bin/adjust_settings
-
 # NFC
 vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd
 
