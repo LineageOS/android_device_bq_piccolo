@@ -43,8 +43,8 @@ on post-fs-data
     chown nfc nfc /data/nfc/param
     restorecon_recursive /data/nfc
 
-    chown root root /system/etc/init.atmel_ts.sh
-    chmod 777 /system/etc/init.atmel_ts.sh
+    chown root root /vendor/bin/init.atmel_ts.sh
+    chmod 777 /vendor/bin/init.atmel_ts.sh
 
     # Tap To Wake
     chown root system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/en_gesture
@@ -54,7 +54,7 @@ on post-fs-data
     chown root system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/disable_keys
     chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/disable_keys
 
-service atmel_ts /system/bin/sh /system/etc/init.atmel_ts.sh
+service atmel_ts /vendor/bin/sh /vendor/bin/init.atmel_ts.sh
     class main
     user root
     oneshot
