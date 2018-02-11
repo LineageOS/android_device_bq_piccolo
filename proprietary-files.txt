@@ -126,15 +126,12 @@ vendor/lib/libmm-color-convertor.so
 
 # DRM
 bin/qseecomd
-vendor/lib/mediadrm/libwvdrmengine.so|416e44ba482f1f97258ff8793b0a810219ac632d
-vendor/lib/libdrmdecrypt.so
+vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/libWVStreamControlAPI_L3.so
 
 # GPS
 -lib/libloc_api_v02.so
