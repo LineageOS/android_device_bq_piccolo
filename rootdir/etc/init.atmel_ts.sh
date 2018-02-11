@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/vendor/bin/sh
 
 sleep 2
 
