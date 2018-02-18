@@ -37,6 +37,9 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/en_gestu
 # Filesystem
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 13013734522 # (BOARD_USERDATAIMAGE_PARTITION_SIZE - 16384 for crypto footer)
 
+# Media Extensions
+TARGET_USES_MEDIA_EXTENSIONS := true
+
 # Power
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/bq/piccolo/power/power_ext.c
 
