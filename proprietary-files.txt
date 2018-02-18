@@ -238,8 +238,10 @@ vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/librilqmiservices.so
+vendor/lib/libsettings.so
 vendor/lib/libsmemlog.so
 vendor/lib/libsystem_health_mon.so
+vendor/lib/libvoice-svc.so
 vendor/lib/libxml.so
 
 # Sensors
