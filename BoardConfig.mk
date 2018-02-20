@@ -24,6 +24,9 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 TARGET_KERNEL_SOURCE := kernel/bq/msm8939
 TARGET_KERNEL_CONFIG := piccolo_defconfig
 
+# Audio
+BOARD_SUPPORTS_SOUND_TRIGGER := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := aquarism5,piccolo,Aquaris_M5
 

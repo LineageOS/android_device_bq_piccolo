@@ -247,6 +247,10 @@ vendor/lib/libxml.so
 bin/sensord
 lib/hw/sensors.msm8916.so
 
+# Sound trigger
+vendor/lib/hw/sound_trigger.primary.msm8916.so
+vendor/lib/libsmwrapper.so
+
 # Thermal
 vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
