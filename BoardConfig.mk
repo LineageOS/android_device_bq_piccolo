@@ -17,6 +17,8 @@
 
 -include device/bq/msm8916-common/BoardConfigCommon.mk
 
+DEVICE_PATH := device/bq/piccolo
+
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 
@@ -28,10 +30,10 @@ TARGET_KERNEL_CONFIG := piccolo_defconfig
 TARGET_OTA_ASSERT_DEVICE := aquarism5,piccolo,Aquaris_M5
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bq/piccolo/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Lineagehw
-BOARD_HARDWARE_CLASS += device/bq/piccolo/lineagehw/src
+BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw/src
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-004a/en_gesture"
 
 # Filesystem
@@ -41,16 +43,16 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13013734522 # (BOARD_USERDATAIMAGE_PARTITI
 TARGET_USES_MEDIA_EXTENSIONS := true
 
 # Power
-TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/bq/piccolo/power/power_ext.c
+TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(DEVICE_PATH)/power/power_ext.c
 
 # Properties
-TARGET_SYSTEM_PROP += device/bq/piccolo/system.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/bq/piccolo/sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Vendor Interface Manifest
-DEVICE_MANIFEST_FILE += device/bq/piccolo/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit from the proprietary version
 -include vendor/bq/piccolo/BoardConfigVendor.mk
