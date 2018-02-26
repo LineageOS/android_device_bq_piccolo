@@ -49,5 +49,8 @@ TARGET_SYSTEM_PROP += device/bq/piccolo/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += device/bq/piccolo/sepolicy
 
+# Vendor Interface Manifest
+DEVICE_MANIFEST_FILE += device/bq/piccolo/manifest.xml
+
 # Inherit from the proprietary version
 -include vendor/bq/piccolo/BoardConfigVendor.mk
