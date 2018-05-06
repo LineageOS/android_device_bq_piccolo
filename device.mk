@@ -26,6 +26,10 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/mixer_paths_skuk.xml:system/vendor/etc/mixer_paths_skuk.xml
 
+# Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hdrhax:system/vendor/etc/hdrhax
+
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/display/calib.cfg \

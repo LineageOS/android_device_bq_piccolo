@@ -64,7 +64,7 @@ vendor/lib/libmmcamera_imx214_olqba15_eeprom.so
 vendor/lib/libmmcamera_imx214_olqba15.so
 vendor/lib/libmmcamera_s5k5e2_olq5f24_eeprom.so
 vendor/lib/libmmcamera_s5k5e2_olq5f24.so
-vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_imglib.so|3c70c754980e1381966865cdf34b283e
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_wavelet_lib.so
