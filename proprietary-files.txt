@@ -24,7 +24,6 @@ vendor/lib/libaudcal.so
 vendor/lib/libFlacSwDec.so
 
 # Bluetooth
-bin/btnvtool:vendor/bin/btnvtool
 bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
 vendor/lib/libbtnv.so
 
@@ -64,7 +63,7 @@ vendor/lib/libmmcamera_imx214_olqba15_eeprom.so
 vendor/lib/libmmcamera_imx214_olqba15.so
 vendor/lib/libmmcamera_s5k5e2_olq5f24_eeprom.so
 vendor/lib/libmmcamera_s5k5e2_olq5f24.so
-vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_imglib.so|b6b65c8d0f3b34bca28b68a5bc0e1b141a03a2ce
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_wavelet_lib.so
@@ -196,7 +195,7 @@ vendor/bin/perfd
 vendor/lib/libqti-perfd-client.so
 
 # Postprocessing
-bin/mm-pp-daemon
+bin/mm-pp-daemon:vendor/bin/mm-pp-daemon
 vendor/lib/libdisp-aba.so
 vendor/lib/libmm-abl.so
 vendor/lib/libmm-abl-oem.so
@@ -205,7 +204,7 @@ vendor/lib/libmm-disp-apis.so
 vendor/lib/libmm-qdcm.so
 
 # QMI
-bin/irsc_util
+bin/irsc_util:vendor/bin/irsc_util
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
@@ -223,13 +222,13 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
 # Radio
-bin/netmgrd:vendor/bin/netmgrd|7579ea0fedb597b1816f389863b10ecd
-bin/qmuxd:vendor/bin/qmuxd|eaaeead87d40f7d202e51a54a11532ed
+bin/netmgrd:vendor/bin/netmgrd
+bin/qmuxd:vendor/bin/qmuxd
 bin/radish:vendor/bin/radish
 bin/rmt_storage:vendor/bin/rmt_storage
-vendor/lib/libcneapiclient.so
+vendor/lib/libcneapiclient.so|bc72c9476b60a12bbb6c4c56038ff3bc8234c178
 vendor/lib/libconfigdb.so
-vendor/lib/libdsi_netctrl.so|3776db24535352b7f06a65b0a5b56655
+vendor/lib/libdsi_netctrl.so
 vendor/lib/liblqe.so
 vendor/lib/libmdmdetect.so
 vendor/lib/libnetmgr.so
@@ -248,7 +247,7 @@ bin/sensord:vendor/bin/sensord
 lib/hw/sensors.msm8916.so:vendor/lib/hw/sensors.msm8916.so
 
 # Thermal
-vendor/bin/thermal-engine|7b6e4bd8eebe1370f0e585cde34a59ec
+vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
@@ -262,4 +261,4 @@ vendor/lib/libTimeService.so
 etc/firmware/A4_15_2.2_AA.raw:vendor/firmware/A4_15_2.2_AA.raw
 
 # WLAN
-bin/wcnss_service:vendor/bin/wcnss_service|82e37c13732e89f532cfa7b3da23cd18
+bin/wcnss_service:vendor/bin/wcnss_service
